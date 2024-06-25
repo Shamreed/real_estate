@@ -1,0 +1,88 @@
+button {
+  color: white;
+  height: 50px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  margin-left: 140px;
+  margin-bottom: 20px;
+}
+div{
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  width: 400px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 12px;
+  border-radius: 25px;
+  border-color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  backdrop-filter: blur(10px);
+  color: black;
+  margin: auto;
+  margin-top: 200px;
+  margin-left: 230px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+p{
+  font-size: 25px;
+}
+
+button:hover{
+box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}
+button:active{
+  opacity: 0.6;
+}
+.sell{
+  background-color: green;
+  margin-right: 450px;
+
+}
+.buy{
+  background-color: red;
+}
+body{
+  background-image: url(walp.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin: 0;
+}
+h1{
+  text-align: center;
+  font-family: arial;
+  color: white;
+  font-size: 30px;
+}
+.navbar ul{
+  list-style-type: none;
+  background-color: rgb(255, 151, 168);
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.navbar a:hover{
+  background-color: rgb(251, 82, 110);
+}
+.navbar li{
+  float: left;
+}
